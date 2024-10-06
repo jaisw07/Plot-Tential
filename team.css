@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: #1D586E;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #010546;
+}
+
+.homebtn{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+h1{
+    color: black;
+    font-family: Syne;
+    font-weight: 800;
+}
+
+.leftside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.aboutbtn{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: .9rem 2rem;
+}
+
+.buttontext{
+    color: black;
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+}
+
+.teambtn{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: .9rem 2rem;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: black;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    margin: auto;
+    padding:2rem;
+    gap:1rem;
+}
+.body .inner-cont .body-text{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body .inner-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 20%;
+}
+.normtext{
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-weight: 112.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.title{
+    color: #1D586E;
+    font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+    font-size: 2.0rem;
+}
+
+.normtext1{
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-weight: 112.5;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.body .inner-cont2{
+    margin: auto;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap:2rem;
+    padding: 2rem 0;
+}
+
+.body .inner-cont2 .shrey{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 1rem 9rem;
+
+}
+.body .inner-cont2 .tanmay{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 1rem 9rem;
+}
+.body .inner-cont2 .shrey .s-pic{
+    background-color: white;
+    width:100%;
+    height:100%;
+    
+}
+.body .inner-cont2 .shrey .s-name{
+    display: flex;
+    background-color: white;
+    width:100%;
+    height:40%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 110;
+    font-size: 2.0rem;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+}
+.body .inner-cont2 .tanmay .t-pic{
+    background-color: white;
+    width:100%;
+    height:100%;
+    
+}
+.body .inner-cont2 .tanmay .t-name{
+    display: flex;
+    background-color: white;
+    width:100%;
+    height:40%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 110;
+    font-size: 2.0rem;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+}
+
